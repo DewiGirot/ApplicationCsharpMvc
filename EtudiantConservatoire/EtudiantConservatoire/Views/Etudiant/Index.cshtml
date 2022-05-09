@@ -1,0 +1,125 @@
+﻿@model EtudiantConservatoire.Models.EtudiantModel
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Élèves du conservatoire</h1>
+
+<br />
+
+<form asp-controller="Etudiant" asp-action="Index" method="get">
+    <fieldset class="fieldsetCustom">
+        <legend>Filtrer la recherche</legend>
+
+        <div class="container">
+            <!--Première ligne-->
+            <div class="row">
+                <div class="col">
+                    <p>Rechercher un nom :</p>
+                </div>
+                <div class="col-md-auto">
+                    <input type="text" name="Nom" />
+                </div>
+            </div>
+
+            <!--Deuxième ligne-->
+            <div class="row">
+                <div class="col">
+                    <p>Rechercher un prénom :</p>
+                </div>
+                <div class="col-md-auto">
+                    <input type="text" name="Prenom" />
+                </div>
+            </div
+
+            <!--Troisième ligne-->
+            <div class="row">
+                <div class="col">
+                    <p>Rechercher un E-mail :</p>
+                </div>
+                <div class="col-md-auto">
+                    <input type="text" name="Email" />
+                </div>
+            </div
+
+            <!--Buttons submit and reset-->
+            <!--Troisième ligne-->
+            <div class="row">
+                <div>
+                    <input class="btn btn-danger btn-sm" type="reset" value="Annuler" />
+                    <input class="btn btn-primary btn-sm" type="submit" value="Rechercher" />
+                </div>
+            </div
+        </div>
+    </fieldset>
+</form>
+
+<br />
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Prenom</th>
+            <th>Genre</th>
+            <th>Date de naissance</th>
+            <th>E-mail</th>
+            <th>Téléphone</th>
+            <th>Code postal</th>
+            <th>Adresse</th>
+            <th>Ville</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Students) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prenom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateNaissance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telephone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodePostal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adresse)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ville)
+            </td>
+            <td>
+                @Html.ActionLink("Editer", "Edit", new {id = EtudiantModel.Encrypt("" + @item.Id) }) |
+                @Html.ActionLink("Supprimer", "Delete", new {id = EtudiantModel.Encrypt("" + @item.Id) }) |
+                @Html.ActionLink("Details", "Details", new {id = EtudiantModel.Encrypt("" + @item.Id) })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<br />
+<br />
+
+<div class="position-relative">
+    <div class="position-absolute bottom-0 end-0">
+        <p>
+            <a class="btn btn-secondary" asp-action="Create">Cliquer pour ajouter un(e) nouvel(le) élève</a>
+        </p>
+    </div>
+</div>

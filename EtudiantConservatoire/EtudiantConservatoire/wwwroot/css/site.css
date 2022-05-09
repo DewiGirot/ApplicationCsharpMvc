@@ -1,0 +1,25 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.fieldsetCustom {
+    border: 2px inset #808080 !important;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+}

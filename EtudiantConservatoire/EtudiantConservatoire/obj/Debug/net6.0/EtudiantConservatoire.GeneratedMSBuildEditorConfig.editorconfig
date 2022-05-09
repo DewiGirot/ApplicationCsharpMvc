@@ -1,0 +1,64 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EtudiantConservatoire
+build_property.RootNamespace = EtudiantConservatoire
+build_property.ProjectDir = C:\Users\super\OneDrive\Bureau\git\ApplicationCsharpMvc\EtudiantConservatoire\EtudiantConservatoire\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\super\OneDrive\Bureau\git\ApplicationCsharpMvc\EtudiantConservatoire\EtudiantConservatoire
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/super/OneDrive/Bureau/git/ApplicationCsharpMvc/EtudiantConservatoire/EtudiantConservatoire/Views/Etudiant/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/super/OneDrive/Bureau/git/ApplicationCsharpMvc/EtudiantConservatoire/EtudiantConservatoire/Views/Etudiant/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/super/OneDrive/Bureau/git/ApplicationCsharpMvc/EtudiantConservatoire/EtudiantConservatoire/Views/Etudiant/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/super/OneDrive/Bureau/git/ApplicationCsharpMvc/EtudiantConservatoire/EtudiantConservatoire/Views/Etudiant/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/super/OneDrive/Bureau/git/ApplicationCsharpMvc/EtudiantConservatoire/EtudiantConservatoire/Views/Etudiant/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/super/OneDrive/Bureau/git/ApplicationCsharpMvc/EtudiantConservatoire/EtudiantConservatoire/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/super/OneDrive/Bureau/git/ApplicationCsharpMvc/EtudiantConservatoire/EtudiantConservatoire/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/super/OneDrive/Bureau/git/ApplicationCsharpMvc/EtudiantConservatoire/EtudiantConservatoire/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/super/OneDrive/Bureau/git/ApplicationCsharpMvc/EtudiantConservatoire/EtudiantConservatoire/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/super/OneDrive/Bureau/git/ApplicationCsharpMvc/EtudiantConservatoire/EtudiantConservatoire/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/super/OneDrive/Bureau/git/ApplicationCsharpMvc/EtudiantConservatoire/EtudiantConservatoire/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/super/OneDrive/Bureau/git/ApplicationCsharpMvc/EtudiantConservatoire/EtudiantConservatoire/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6zf0g09iv5
